@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(241 245 255 / 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+i:first-of-type {
+    color: rgb(100 116 139 / 1);
+    position: absolute;
+    top: 2rem;
+    right: 18rem;
+}
+
+i:last-child {
+    color:rgb(139 140 153 / 1);
+    position: absolute;
+    right: 2rem;
+    top: 1.7rem;
+}
+
+.job-1 h2 {
+    position: absolute;
+    top: -3rem;
+}
+
+.job-1 a {
+    position: absolute;
+    top: -2.5rem;
+    right: 2rem;
+    color: darkblue;
+}
+
+.job-1,
+.job-2,
+.job-3,
+.job-4,
+.job-5 {
+    position: relative;
+    border-radius: 10px;
+}
+
+.job-1 p:first-of-type,
+.job-2 p:first-of-type,
+.job-3 p:first-of-type,
+.job-4 p:first-of-type,
+.job-5 p:first-of-type{
+    position: absolute;
+    top: 2rem;
+    left: 21rem;
+    font-size: 18px;
+}
+
+.job-1 p:last-of-type,
+.job-2 p:last-of-type,
+.job-3 p:last-of-type,
+.job-4 p:last-of-type,
+.job-5 p:last-of-type
+ {
+    position: absolute;
+    top: 2rem;
+    left: 32.5rem;
+}
+
+.job-1 h3,
+.job-2 h3,
+.job-3 h3,
+.job-4 h3,
+.job-5 h3 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.job-1 {
+    top: 12rem;
+    left: 27rem;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+}
+
+.job-2 {
+    top: 13rem;
+    left: 27rem;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+}
+
+.job-3 {
+    top: 14rem;
+    left: 27rem;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+}
+
+.job-4 {
+    top: 15rem;
+    left: 27rem;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+}
+
+.job-5 {
+    top: 16rem;
+    left: 27rem;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+}
